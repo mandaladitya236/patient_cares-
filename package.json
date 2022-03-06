@@ -1,0 +1,53 @@
+{
+  "name": "patient_care_app",
+  "version": "1.0.0",
+  "description": "patient care app for medicine reminder using messages",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "seed": "node scripts/seedDB.js",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "dev": "concurrently \"react-scripts start\" \"nodemon server.js\"",
+    "server": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mandaladitya236/patient_care_app.git"
+  },
+  "author": "Aditya mandal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mandaladitya236/patient_care_app/issues"
+  },
+  "homepage": "https://github.com/mandaladitya236/patient_care_app#readme",
+  "dependencies": {
+    "axios": "^0.26.0",
+    "bcrypt": "^5.0.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.2",
+    "cheerio": "^1.0.0-rc.10",
+    "concurrently": "^7.0.0",
+    "connect-flash": "^0.1.1",
+    "connect-mongo": "^3.2.0",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "express-session": "^1.17.2",
+    "moment": "^2.29.1",
+    "moment-timezone": "^0.5.34",
+    "mongoose": "^6.2.4",
+    "morgan": "^1.10.0",
+    "passport": "^0.5.2",
+    "passport-local": "^1.0.0",
+    "path": "^0.12.7",
+    "react": "^17.0.2",
+    "react-bootstrap": "^2.2.0",
+    "react-datepicker": "^4.7.0",
+    "react-dom": "^17.0.2",
+    "react-moment": "^1.1.1",
+    "react-router-dom": "^4.2.2",
+    "request": "^2.88.2",
+    "twilio": "^3.75.0"
+  }
+}
